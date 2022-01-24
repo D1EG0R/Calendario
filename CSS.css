@@ -1,0 +1,80 @@
+body {
+    background-color: #95E1FF;
+    font-family: sans-serif;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+div {
+    background-color: rgb(177, 228, 83);
+    border: black 2px solid;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+}
+div.PrimeraTabla caption {
+    font-style: oblique;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+div.PrimeraTabla Table  {
+    border-collapse: collapse;
+    border: none;
+  text-align: center;
+}
+div.PrimeraTabla th{
+    width: 3em;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+}
+div.PrimeraTabla td {
+    width: 3em;
+    border-left: none;
+    border-right: none
+}
+
+div.SegundaTabla caption {
+    text-align: right;
+    font-weight: bold;
+}
+div.SegundaTabla table {
+    border-collapse: collapse;
+    border: none;
+    text-align: right;
+    
+}
+
+div.SegundaTabla th {
+    width: 2.7em;
+    border-top: none;
+    border-bottom: none;
+
+}
+div.SegundaTabla td {
+    border-bottom: none;
+    border-top: none;
+    font-size: 150%;
+
+}
+div.TerceraTabla caption{
+    letter-spacing: 5px;
+    text-align: left;
+    font-variant: small-caps;
+}
+div.TerceraTabla table {
+    border-collapse: collapse;
+    margin: none;
+
+}
+div.TerceraTabla td {
+    width: 4em;
+  height: 4em;
+  padding-left: 5px;
+  font-size: 70%;
+  vertical-align: top;
+
+    
+}
